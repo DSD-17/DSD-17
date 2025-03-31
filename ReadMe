@@ -1,0 +1,9 @@
+# 语义相似度计算项目
+
+## 📌 项目介绍
+本项目用于计算两句话之间的语义相似度，采用 **sentence-transformers** 提供的 **MiniLM** 轻量级向量模型。
+
+## 🔧 安装依赖
+请先确保已安装 Python 3.8+，然后运行：
+```sh
+pip install -r Requirements.txt
