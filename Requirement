@@ -1,4 +1,11 @@
-numpy
-sentence-transformers
-scipy
-requests
+requests==2.31.0
+sentence-transformers==2.2.2
+transformers==4.38.2
+torch>=1.12.0
+scikit-learn>=1.2.0
+numpy>=1.24.0
+scipy>=1.10.0
+tqdm>=4.65.0
+protobuf>=3.20.0
+jinja2>=3.1.2
+openai==1.12.0  # 如果 evaluate_sentences 用的是 OpenAI，也保留
