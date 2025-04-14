@@ -1,9 +1,23 @@
-# 语义相似度计算项目
+# ✨ 句子相似度评估平台（ChatChat vs 通义千问）
 
-## 📌 项目介绍
-本项目用于计算两句话之间的语义相似度，采用 **sentence-transformers** 提供的 **MiniLM** 轻量级向量模型。
+该项目用于对比两个大语言模型（本地部署的 ChatChat 和通义千问 Qwen）的文本输出内容，通过语义相似度和语言模型评估两种方式对生成内容进行分析。
 
-## 🔧 安装依赖
-请先确保已安装 Python 3.8+，然后运行：
-```sh
-pip install -r Requirements.txt
+---
+
+## 🚀 功能说明
+
+- ✅ 连接本地部署的 ChatChat 服务（deepseek-chat 模型）
+- ✅ 调用阿里云 DashScope 接口获取通义千问的文本生成
+- ✅ 基于 SentenceTransformer 向量模型对输出文本进行语义相似度评估
+- ✅ 使用 LLM 模型进行语言理解层面的句子对比
+- ✅ 支持用户交互输入自定义情境提示词
+- ✅ 支持连续输入（循环交互）
+
+---
+
+## 📦 安装依赖
+
+确保你使用的是 Python 3.8+ 的环境，并使用 `pip` 安装依赖：
+
+```bash
+pip install -r requirements.txt
